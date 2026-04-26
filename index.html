@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="hero">
+    <h1>Grow Your Business with a Clean Landing Page</h1>
+    <p>Clean, simple and effective landing page for your business</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">Fast Loading</div>
+    <div class="feature">Responsive Design</div>
+    <div class="feature">Simple & Clean</div>
+  </section>
+
+  <section class="about">
+    <p>
+      This is a simple landing page designed to help businesses collect leads
+      and present their services in a clean and professional way.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" name="user_name" placeholder="Your Name" required>
+      <input type="email" name="user_email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
